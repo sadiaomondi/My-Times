@@ -11,8 +11,11 @@ header {
   display: inline-flex;
 }
 
-nav ul {
-  display: inline-flex;
+nav ul li {
+  list-style: none;
+  display: flex;
+  text-decoration: underline;
+  justify-content: flex-end;
 }
 
 h1 {

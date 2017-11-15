@@ -4,20 +4,32 @@ header {
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
-  align-items: center;
+  align-content: : center;
+  justify-content: space-between;
+  padding-bottom: 10px;
 }
 
 .logo {
-  display: inline-flex;
+  align-items: center;
+  margin: 0px 10px;
 }
 
-nav ul li {
-  list-style: none;
-  display: inline-flex;
-  text-decoration: underline;
-  justify-content: flex-end;
-}
-
-h1 {
+p {
+  display: inline-block;
   color: MediumAquamarine;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.pages li {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  display: inline-block;
+  text-decoration: underline;
+  margin: 10px 10px;
 }

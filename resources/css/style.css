@@ -14,7 +14,7 @@ header {
   margin: 0px 10px;
 }
 
-p {
+.title p {
   display: inline-block;
   color: MediumAquamarine;
 }
@@ -23,6 +23,7 @@ p {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
+  padding-right: 700px;
 }
 
 .pages li {
@@ -32,4 +33,126 @@ p {
   display: inline-block;
   text-decoration: underline;
   margin: 10px 10px;
+}
+
+.main {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.column {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.column .large {
+  display: inline-flex;
+  width: 630px;
+  margin-right: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column .medium {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  margin: 0px 10px;
+}
+
+.column .small {
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.column p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.az p{
+  font-size: 40px;
+}
+
+h3 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.mother {
+  display: flex;
+  align-content: flex-start;
+  height: 300px;
+}
+
+.mother, .main-banner {
+  background-image:
+  url("/Users/omondisadia/Documents/Code/MyTimes/resources/images/img-story-main.png"
+  );
+  background-repeat: no-repeat;
+}
+
+.earth {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  align-items: : flex-start;
+  text-align: center;
+}
+
+.earth: h3 {
+  align-self: flex-start;
+}
+
+.earth, .main-banner {
+  background-image: url("/Users/omondisadia/Documents/Code/MyTimes/resources/images/img-story-2.png"
+  );
+  background-repeat: no-repeat;
+}
+
+.research {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.research, .main-banner {
+  background-image:
+  url("/Users/omondisadia/Documents/Code/MyTimes/resources/images/img-story-3.png"
+  );
+  background-repeat: no-repeat;
+}
+
+.cats {
+  display: flex;
+  height: 300px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.cats, .main-banner {
+  background-image:
+  url("/Users/omondisadia/Documents/Code/MyTimes/resources/images/img-story-1.cat.png"
+  );
+}
+
+.orca {
+  width: 300px;
+}
+
+.burger {
+  width: 300px;
 }
